@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Jogo de adivinhação</title>
+</head>
+
+<body>
+    <header>
+        <h1> Jogo de adivinhação</h1>
+    </header>
+    <main>
+        <div class="flex-pai">
+            <div id="div-input">
+                <h2>Adivinhe um numero de 1 a 100</h2>
+                <input type="number" id="numero" placeholder="Digite um numero aqui..">
+                <button type="submit" id="btn"> Adivinhar</button>
+
+            </div>
+            <div>
+                <h2>Resultado</h2>
+                <h3 id="dica">Dica...</h3>
+                <h3 id="resultado"></h3>
+                <img src="youWin_pc_01.gif" alt="Imagem de vitória" title="You win">
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

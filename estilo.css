@@ -1,0 +1,100 @@
+h1 {
+    text-align: center;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 64px;
+    color: #F21616;
+
+}
+
+body {
+    background-image: url(mario.webp);
+}
+
+header {
+    border-radius: 40px;
+    background-color: #ffffff;
+    padding: 10px;
+    width: 1000px;
+    margin: auto;
+}
+
+main {
+    margin-top: 100px;
+}
+
+.flex-pai {
+
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+
+.flex-pai div {
+    background: white;
+    border: 1px solid black;
+    border-radius: 40px;
+    margin: 20px;
+    padding: 100px;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+}
+
+input[type="number"] {
+    border-radius: 40px;
+    padding: 15px;
+    border: 2px solid rgba(116, 16, 183, 0.819);
+    margin-bottom: 20px;
+    width: 400px;
+}
+
+h2 {
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 36px;
+    color: rgb(85, 85, 55);
+}
+
+h3 {
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 30px;
+    color: rgb(85, 85, 55);
+}
+
+button {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border-radius: 40px;
+    border: 2px solid rgba(116, 16, 183, 0.819);
+    background-color: rgb(16, 110, 234);
+    color: white;
+    font-family: 'Silkscreen', sans-serif;
+    width: 260px;
+
+}
+
+button:hover {
+    background: blueviolet;
+    border: 3px solid black;
+    padding: 13px;
+}
+
+#resultado {
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 36px;
+    color: rgb(252, 59, 11);
+}
+
+#dica {
+    color: blueviolet;
+}
+
+img {
+    width: 300px;
+    display: none;
+
+}
